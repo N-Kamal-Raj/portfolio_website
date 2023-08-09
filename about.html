@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-1.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <title>n_kamal_raj_about</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="about-section">
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo1.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <i class="ri-close-line" onclick="closemenu()"></i>
+                    </ul>
+    
+                    <i class="ri-menu-line" onclick="openmenu()"></i>
+                </nav>
+            </div>
+    
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="images/user1.jpeg" alt="">
+                        </div>
+        
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About Me</h1>
+                            <p class="about_descp">As a passionately motivated individual with a solid foundation in HTML, CSS, JavaScript, Bootstrap, machine learning. I love learning about the latest web development and machine learning technology, ensuring I stay afloat in this rapidly growing industry.</p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">
+                                    Skills
+                                </p>
+                                <p class="tab-links" onclick="opentab('experience')">
+                                    Experience
+                                </p>
+                                <p class="tab-links" onclick="opentab('education')">
+                                    Education
+                                </p>
+                            </div>
+        
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>HTML</span><br><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i></li>
+                                    <li><span>CSS</span><br><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i></li>
+                                    <li><span>JavaScript</span><br><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-line"></i><i class="ri-star-s-line"></i></li>
+                                    <li><span>Python</span><br><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-line"></i><i class="ri-star-s-line"></i></li>
+                                    <li><span>Machine Learning</span><br><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-line"></i><i class="ri-star-s-line"></i></li>
+                                </ul>
+                            </div>
+        
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Full-Stack Web Developer Intern</span><br>from Wayspire (10/07/2023-10/09/2023)</li>
+                                    <li><span>Web Developer Intern</span><br>from Oasis Infobyte (15/07/2023-15/08/2023)</li>
+                                    <li><span>Web developer Intern</span><br>from Bharat Intern (10/07/2023-10/08/2023)</li>
+                                    <li><span>Web Developer Intern</span><br>from Internpe (01/07/2023-27/07/2023) </li>
+                                    <li><span>Artificial Intelligence Intern</span><br>from Aican Automate in association with Teachnook (01/07/2022-31/08/2022) </li>
+                                    
+                                </ul>
+                            </div>
+        
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>Indian Institute of Information Technology, Tiruchirappalli</span><br>Btech/ECE/(2020-2024)</li>
+                                    <li><span>St.Joseph's Sr. Sec. School, NTPC, Dibiyapur,U.P.</span><br>12th-2019</li>
+                                    <li><span>St.Joseph's Sr. Sec. School, NTPC, Dibiyapur,U.P.</span><br>10th-2017</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
