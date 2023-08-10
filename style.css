@@ -262,6 +262,10 @@ nav ul li a:hover::after{
     background: #DB2222;
 }
 
+.btn:active{
+    transform: translateY(5px);
+}
+
 /* ---------------- CONTACT ---------------*/
 .contact-left{
     flex-basis: 35%;
@@ -302,6 +306,10 @@ nav ul li a:hover::after{
 .btn.btn2{
     display: inline-block;
     background: #DB2222;
+}
+
+.btn.btn2:active{
+    transform: translateY(5px);
 }
 
 .contact-right form{
