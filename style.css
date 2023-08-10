@@ -249,7 +249,7 @@ nav ul li a:hover::after{
 .btn{
     display: block;
     margin: 50px auto;
-    width: fit-content;
+    width: max-content;
     border: 1px solid #DB2222;
     padding: 14px 50px;
     border-radius: 6px;
